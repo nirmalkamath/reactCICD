@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "jsx": "react-jsx", // Ensure this is explicitly defined
+    "isolatedModules": false, // Required for Jest compatibility
+    "esModuleInterop": true // Ensures module import compatibility
+  },
+  "include": ["src/**/*", "src/**/*.test.tsx"]
+}

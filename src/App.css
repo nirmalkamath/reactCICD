@@ -1,0 +1,20 @@
+/* App.css */
+header {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #f4f4f4;
+  text-align: left;
+  padding: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
